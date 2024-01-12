@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    background-color: #000020;
+}
+.container{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.stopWatch{
+    color: #ffc107;
+    font-size: 200px;
+    font-weight: bold;
+}
+button{
+ margin: 20px;
+}
+.mili{
+    margin-top: -50px;
+    display: flex;
+    font-size: 80px;
+    justify-content: flex-end;
+}
